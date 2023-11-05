@@ -1,0 +1,178 @@
+
+/******************
+  font
+ ******************/
+@mixin font-format($style: normal, $weight: 500, $size: 16px, $height: 30px) {
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin txt-display1 {
+  @include font-format(normal, 600, 40px, 56px)
+}
+
+@mixin txt-display2 {
+  @include font-format(normal, 600, 28px, 40px)
+}
+
+@mixin txt-display3 {
+  @include font-format(normal, 600, 24px, 36px)
+}
+
+@mixin txt-heading1 {
+  @include font-format(normal, 700, 20px, 30px)
+}
+
+@mixin txt-heading2 {
+  @include font-format(normal, 700, 18px, 28px)
+}
+
+@mixin txt-subtitle1 {
+  @include font-format(normal, 600, 16px, 26px)
+}
+
+@mixin txt-subtitle2 {
+  @include font-format(normal, 600, 14px, 20px)
+}
+
+@mixin txt-body1 {
+  @include font-format(normal, 400, 16px, 26px)
+}
+
+@mixin txt-body2 {
+  @include font-format(normal, 400, 14px, 20px)
+}
+
+@mixin txt-button1 {
+  @include font-format(normal, 600, 16px, 16px)
+}
+
+@mixin txt-button2 {
+  @include font-format(normal, 600, 14px, 14px)
+}
+
+@mixin txt-button3 {
+  @include font-format(normal, 500, 12px, 12px)
+}
+
+@mixin txt-caption1 {
+  @include font-format(normal, 500, 12px, 18px)
+}
+
+@mixin txt-overline1 {
+  @include font-format(normal, 600, 12px, 12px)
+}
+
+@mixin txt-overline2 {
+  @include font-format(normal, 500, 10px, 11px)
+}
+
+
+/******************
+  color
+ ******************/
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-danger: #E55A1A;
+$color-warning: #FFD706;
+$color-success: #00C400;
+
+$color-gray-50: #FAFAFA;
+$color-gray-100: #F5F5F5;
+$color-gray-150: #ECEDEE;
+$color-gray-200: #D7D8DA;
+$color-gray-300: #AFB3B6;
+$color-gray-400: #95999D;
+$color-gray-500: #7C7F83;
+$color-gray-600: #636669;
+$color-gray-700: #4B4D4E;
+$color-gray-800: #323334;
+$color-gray-900: #222222;
+$color-gray-950: #111111;
+
+$color-blue-100: #EBF0FF;
+$color-blue-200: #99B6FF;
+$color-blue-300: #6691FF;
+$color-blue-400: #336CFF;
+$color-blue-500: #0047FF;
+$color-blue-600: #0531FB;
+$color-blue-700: #0327C9;
+$color-blue-800: #021D97;
+$color-blue-900: #021364;
+
+$color-red-100: #FDEDF0;
+$color-red-200: #FAD1D8;
+$color-red-300: #F5A3B2;
+$color-red-400: #F0758B;
+$color-red-500: #EB4765;
+$color-red-600: #E61A3E;
+$color-red-700: #B81432;
+$color-red-800: #8A0F25;
+$color-red-900: #5C0A19;
+
+$color-vip-white: #FFFFFF;
+$color-vip-black: #000000;
+$color-vip-gray1: #98989E;
+$color-vip-gray2: #636366;
+$color-vip-gray3: #3B3B3D;
+$color-vip-gray4: #1C1C1D;
+$color-vip-gold1: #B8A172;
+$color-vip-gold2: #3D3626;
+$color-vip-gold3: #292419;
+
+
+$max-with: 580px;
+
+
+:export {
+  colorBlack: #{$color-black};
+  colorWhite: #{$color-white};
+  colorDanger: #{$color-danger};
+  colorWarning: #{$color-warning};
+  colorSuccess: #{$color-success};
+
+  colorGray50: #{$color-gray-50};
+  colorGray100: #{$color-gray-100};
+  colorGray150: #{$color-gray-150};
+  colorGray200: #{$color-gray-200};
+  colorGray300: #{$color-gray-300};
+  colorGray400: #{$color-gray-400};
+  colorGray500: #{$color-gray-500};
+  colorGray600: #{$color-gray-600};
+  colorGray700: #{$color-gray-700};
+  colorGray800: #{$color-gray-800};
+  colorGray900: #{$color-gray-900};
+  colorGray950: #{$color-gray-950};
+
+  colorBlue100: #{$color-blue-100};
+  colorBlue200: #{$color-blue-200};
+  colorBlue300: #{$color-blue-300};
+  colorBlue400: #{$color-blue-400};
+  colorBlue500: #{$color-blue-500};
+  colorBlue600: #{$color-blue-600};
+  colorBlue700: #{$color-blue-700};
+  colorBlue800: #{$color-blue-800};
+  colorBlue900: #{$color-blue-900};
+
+  colorRed100: #{$color-red-100};
+  colorRed200: #{$color-red-200};
+  colorRed300: #{$color-red-300};
+  colorRed400: #{$color-red-400};
+  colorRed500: #{$color-red-500};
+  colorRed600: #{$color-red-600};
+  colorRed700: #{$color-red-700};
+  colorRed800: #{$color-red-800};
+  colorRed900: #{$color-red-900};
+
+  colorVipWhite: #{$color-vip-white};
+  colorVipBlack: #{$color-vip-black};
+  colorVipGray1: #{$color-vip-gray1};
+  colorVipGray2: #{$color-vip-gray2};
+  colorVipGray3: #{$color-vip-gray3};
+  colorVipGray4: #{$color-vip-gray4};
+  colorVipGold1: #{$color-vip-gold1};
+  colorVipGold2: #{$color-vip-gold2};
+  colorVipGold3: #{$color-vip-gold3};
+}

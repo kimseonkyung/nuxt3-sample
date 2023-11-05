@@ -1,0 +1,199 @@
+
+
+/* 페이지 용 ex) 이벤트 */
+.txt-display1 {
+  @include txt-display1
+}
+
+/* 페이지 용 ex) 이벤트 */
+.txt-display2 {
+  @include txt-display2
+}
+
+/* 페이지 용 ex) 이벤트, 컨텐츠 */
+.txt-display3 {
+  @include txt-display3
+}
+
+/* 컨텐츠 타이틀 */
+.txt-heading1 {
+  @include txt-heading1
+}
+
+/* 컨텐츠 타이틀 */
+.txt-heading2 {
+  @include txt-heading2
+}
+
+/* 짧은 문장 강조형 ex) 타이틀, 리스트 및 상품명 */
+.txt-subtitle1 {
+  @include txt-subtitle1
+}
+
+/* 짧은 문장 강조형 ex) 리스트 및 상품명 */
+.txt-subtitle2 {
+  @include txt-subtitle2
+}
+
+/*
+  1. 짧은 문장 ex) 리스트 및 상품명
+  2. 긴 장문에 사용 ex) 인베스트,매거진용
+ */
+.txt-body1 {
+  @include txt-body1
+}
+
+/*
+  1. 짧은 문장 ex) 리스트 및 상품명
+  2. 긴 장문에 사용 ex) 유의사항, 설명 글
+ */
+.txt-body2 {
+  @include txt-body2
+}
+
+/* 버튼 L */
+.txt-button1 {
+  @include txt-button1
+}
+
+/* 버튼 M */
+.txt-button2 {
+  @include txt-button2
+}
+
+/* 버튼 S */
+.txt-button3 {
+  @include txt-button3
+}
+
+/* 보조 텍스트 */
+.txt-caption1 {
+  @include txt-caption1
+}
+
+/* 보조 텍스트,Status Badge용 */
+.txt-overline1 {
+  @include txt-overline1
+}
+
+/* Status Badge용 */
+.txt-overline2 {
+  @include txt-overline2
+}
+
+
+/* font weight */
+.txt-weight-400 { font-weight: 400; }
+.txt-weight-500 { font-weight: 500; }
+.txt-weight-600 { font-weight: 600; }
+.txt-weight-700 { font-weight: 700; }
+
+
+/* font line height */
+.txt-height-20 { line-height: 20px; }
+.txt-height-22 { line-height: 22px; }
+.txt-height-24 { line-height: 24px; }
+.txt-height-26 { line-height: 26px; }
+.txt-height-28 { line-height: 28px; }
+.txt-height-30 { line-height: 30px; }
+.txt-height-32 { line-height: 32px; }
+.txt-height-34 { line-height: 34px; }
+.txt-height-36 { line-height: 36px; }
+.txt-height-38 { line-height: 38px; }
+.txt-height-40 { line-height: 40px; }
+
+
+/* font color */
+.txt-color-black { color: $color-black; }
+.txt-color-white { color: $color-white; }
+
+.txt-color-danger { color: $color-danger; }
+.txt-color-warning { color: $color-warning; }
+.txt-color-success { color: $color-success; }
+
+.txt-color-gray {
+  &__50 { color: $color-gray-50; }
+  &__100 { color: $color-gray-100; }
+  &__150 { color: $color-gray-150; }
+  &__200 { color: $color-gray-200; }
+  &__300 { color: $color-gray-300; }
+  &__400 { color: $color-gray-400; }
+  &__500 { color: $color-gray-500; }
+  &__600 { color: $color-gray-600; }
+  &__700 { color: $color-gray-700; }
+  &__800 { color: $color-gray-800; }
+  &__900 { color: $color-gray-900; }
+  &__950 { color: $color-gray-950; }
+}
+
+.txt-color-blue {
+  &__100 { color: $color-blue-100; }
+  &__200 { color: $color-blue-200; }
+  &__300 { color: $color-blue-300; }
+  &__400 { color: $color-blue-400; }
+  &__500 { color: $color-blue-500; }
+  &__600 { color: $color-blue-600; }
+  &__700 { color: $color-blue-700; }
+  &__800 { color: $color-blue-800; }
+  &__900 { color: $color-blue-900; }
+}
+
+.txt-color-red {
+  &__100 { color: $color-red-100; }
+  &__200 { color: $color-red-200; }
+  &__300 { color: $color-red-300; }
+  &__400 { color: $color-red-400; }
+  &__500 { color: $color-red-500; }
+  &__600 { color: $color-red-600; }
+  &__700 { color: $color-red-700; }
+  &__800 { color: $color-red-800; }
+  &__900 { color: $color-red-900; }
+}
+
+/* bg color */
+.bg-color-black { background: $color-black; }
+.bg-color-white { background: $color-white; }
+
+.bg-color-danger { background: $color-danger; }
+.bg-color-warning { background: $color-warning; }
+.bg-color-success { background: $color-success; }
+
+.bg-color-gray {
+  &__50 { background: $color-gray-50; }
+  &__100 { background: $color-gray-100; }
+  &__150 { background: $color-gray-150; }
+  &__200 { background: $color-gray-200; }
+  &__300 { background: $color-gray-300; }
+  &__400 { background: $color-gray-400; }
+  &__500 { background: $color-gray-500; }
+  &__600 { background: $color-gray-600; }
+  &__700 { background: $color-gray-700; }
+  &__800 { background: $color-gray-800; }
+  &__900 { background: $color-gray-900; }
+  &__950 { background: $color-gray-950; }
+}
+
+.bg-color-blue {
+  &__100 { background: $color-blue-100; }
+  &__200 { background: $color-blue-200; }
+  &__300 { background: $color-blue-300; }
+  &__400 { background: $color-blue-400; }
+  &__500 { background: $color-blue-500; }
+  &__600 { background: $color-blue-600; }
+  &__700 { background: $color-blue-700; }
+  &__800 { background: $color-blue-800; }
+  &__900 { background: $color-blue-900; }
+}
+
+.bg-color-red {
+  &__100 { background: $color-red-100; }
+  &__200 { background: $color-red-200; }
+  &__300 { background: $color-red-300; }
+  &__400 { background: $color-red-400; }
+  &__500 { background: $color-red-500; }
+  &__600 { background: $color-red-600; }
+  &__700 { background: $color-red-700; }
+  &__800 { background: $color-red-800; }
+  &__900 { background: $color-red-900; }
+}
+
