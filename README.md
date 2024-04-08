@@ -1,1 +1,1 @@
-# sample-nuxt3
+# nuxt3 project sample
